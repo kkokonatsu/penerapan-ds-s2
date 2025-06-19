@@ -231,7 +231,9 @@ Analisis terhadap faktor-faktor lingkungan ekonomi makro, seperti inflasi, tingk
 
 Setelah semua data disiapkan melalui tahapan preparation, langkah selanjutnya adalah membangun model prediktif. Tujuan utama kita adalah mengembangkan model klasifikasi yang mampu mendeteksi siswa berisiko dropout sedini mungkin, sehingga Jaya Jaya Institut dapat memberikan bimbingan khusus.
 
-Model yang telah di-_deploy_ dalam bentuk prototype berbasis **Streamlit** bisa diakses secara lokal perangkat Anda dengan menjalankan perintah berikut di terminal.
+Model yang dibuat telah di-_deploy_ dalam bentuk prototype berbasis **Streamlit** yang bisa diakses secara online pada link berikut: [Prototype Streamlit Klasifikasi Status Dropout Mahasiswa](https://penerapan-ds-s2git-63zqi6flq9cwrrw7mfvqfn.streamlit.app/)
+
+Selain itu, prototype juga bisa dijalankan di lokal perangkat Anda dengan menjalankan perintah berikut di terminal setelah Anda melakukan clone dari repository ini.
 
 ```bash
 cd submission
