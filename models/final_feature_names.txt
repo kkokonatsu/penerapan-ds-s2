@@ -1,0 +1,57 @@
+Daytime_evening_attendance
+Nacionality
+Displaced
+Educational_special_needs
+Debtor
+Tuition_fees_up_to_date
+Gender
+Scholarship_holder
+Marital_status_divorced
+Marital_status_facto union
+Marital_status_legally separated
+Marital_status_married
+Marital_status_single
+Marital_status_widower
+Previous_qualification_Higher Education
+Previous_qualification_Secondary Education
+Previous_qualification_Unknown
+Application_mode_0
+Application_mode_1
+Application_mode_2
+Application_mode_3
+Application_mode_4
+Course_0
+Course_1
+Course_2
+Course_3
+Course_4
+Mothers_qualification_0
+Mothers_qualification_1
+Mothers_qualification_2
+Fathers_qualification_0
+Fathers_qualification_1
+Fathers_qualification_2
+Mothers_occupation_0
+Mothers_occupation_1
+Mothers_occupation_2
+Mothers_occupation_3
+Fathers_occupation_0
+Fathers_occupation_1
+Fathers_occupation_2
+Fathers_occupation_3
+Application_order
+Previous_qualification_grade
+Admission_grade
+Age_at_enrollment
+Unemployment_rate
+Inflation_rate
+GDP
+No_Eval_Rate_2nd_Sem
+Credit_Rate_2nd_Sem
+Grade_Change_1st_2nd_Sem
+Approval_Rate_Change_1st_2nd_Sem
+Enrolled_Units_Change
+No_Eval_Units_Change
+Overall_Avg_Grade
+Total_Approved_Units
+Grade_Admission_PrevQual_Diff
