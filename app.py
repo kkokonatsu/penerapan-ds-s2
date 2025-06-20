@@ -600,6 +600,29 @@ if uploaded_file is not None:
         st.write("Preview Data Input:")
         st.dataframe(input_df.head())
 
+        required_columns = [
+            'Marital_status', 'Application_mode', 'Course', 'Daytime_evening_attendance',
+            'Previous_qualification', 'Nacionality', 'Mothers_qualification', 'Fathers_qualification',
+            'Mothers_occupation', 'Fathers_occupation', 'Displaced', 'Educational_special_needs',
+            'Debtor', 'Tuition_fees_up_to_date', 'Gender', 'Scholarship_holder', 'International',
+            'Age_at_enrollment', 'Unemployment_rate', 'Inflation_rate', 'GDP',
+            'Previous_qualification_grade', 'Admission_grade',
+            'Curricular_units_1st_sem_credited', 'Curricular_units_1st_sem_enrolled', 
+            'Curricular_units_1st_sem_evaluations', 'Curricular_units_1st_sem_approved', 
+            'Curricular_units_1st_sem_grade', 'Curricular_units_1st_sem_without_evaluations',
+            'Curricular_units_2nd_sem_credited', 'Curricular_units_2nd_sem_enrolled', 
+            'Curricular_units_2nd_sem_evaluations', 'Curricular_units_2nd_sem_approved', 
+            'Curricular_units_2nd_sem_grade', 'Curricular_units_2nd_sem_without_evaluations'
+        ]
+
+        missing_columns = [col for col in required_columns if col not in input_df.columns]
+
+        if missing_columns:
+            st.error(f"File CSV Anda tidak lengkap. Kolom berikut tidak ditemukan: **{', '.join(missing_columns)}**")
+            st.warning("Pastikan file CSV Anda memiliki semua kolom yang diperlukan sesuai petunjuk.")
+            st.stop()         
+        st.success("Validasi format CSV berhasil. Semua kolom yang diperlukan ditemukan.")
+        
         for col in ['Marital_status', 'Application_mode', 'Course', 'Daytime_evening_attendance',
                     'Previous_qualification', 'Nacionality', 'Mothers_qualification', 'Fathers_qualification',
                     'Mothers_occupation', 'Fathers_occupation', 'Displaced', 'Educational_special_needs',
